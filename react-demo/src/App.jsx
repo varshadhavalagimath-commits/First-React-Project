@@ -1,19 +1,18 @@
-
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-
-function App() {
-  return (
+import Hero from"./components/Hero";
+import EventSection from "./components/Eventsection";
+import Footer from "./components/Footer";
+function App(){
+  return(
     <div>
       <Navbar />
-      <main id="home">
-        <h1>campus Connect</h1>
-        <p>welcome to college events and clubs</p>
-        <Hero />
-      </main>
+      <main id="home">    
+      <Hero />
+      <EventSection />
+      </main>  
+      <Footer />
     </div>
   );
 }
-
 export default App;
