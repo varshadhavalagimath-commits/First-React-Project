@@ -1,26 +1,53 @@
-.app{
-  min-height: 100vh;
+.navbar{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 24px;
-  background-color: blueviolet;
+  padding: 18px 8%;
+  background-color: rgb(180, 180, 241);
+  color:brown;
+}
+.navbar h2{
+  margin:0;
+}
+.nav-links a{
+  color: beige;
+  text-decoration: none;
+}
+.nav-links a:hover{
+  color:antiquewhite;
 }
 
-.Welcome{
-  width: 100%;
+.hero{
+  padding:100px 8%;
+  background: linear-gradient(135deg,#172554,#2563eb);
+  color:white;
+}
+.hero-label{
+  margin:0;
+  color:#93c5fd;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.hero h1{
+  max-width: 750px;
+  margin:12px 0;
+  font-size: 48px;
+}
+.hero-description{
   max-width: 650px;
-  padding: 32px;
-  border-radius: 16px;
-  background-color: yellowgreen;
-  box-shadow: 0 10px 25px rgba(168, 227, 6, 0.903);
+  font-size: 18px;
+  line-height: 1.7;
 }
-h1{
-  margin-top: 8px;
-  color: black;
-}
-.day-label{
- margin: 0;
- color: rgb(248, 146, 12);
- font-weight: bold;
+.hero-button{
+  display: inline block;
+  margin-top: 20px;
+  padding:12px 20px;
+  border-radius: 6px;
+  background-color: white;
+  color:#1d4ed8;
+  font-weight: bold;
+  text-decoration: none;
+
 }
