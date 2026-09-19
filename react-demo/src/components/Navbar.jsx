@@ -1,35 +1,16 @@
-//function Navbar({brandName}){
-  //  return(
-    //    <nav className="navbar ">
-      //     
-        //        <a className="brand-name" href="#home">
-          //          {brandName}
-            //    </a>
-              //  <div className="nav-links">
-                //    <a href="#home">Home</a>
-                  //  <a href="#events">Events</a>
-                    //<a href="#categories">Categories</a>
-                    //<a// href="#about">About</a>
-            //    </div>//</a>
-            
-       // </nav>
+import { Link } from "react-router-dom";
 
-    //);
-//}
-//export default Navbar
-
-function Navbar(){
-    return(
-        <nav className="navbar">
-            <h2>Campus Connect</h2>
-            <div className="nav-Links">
-                <a href="#home">Home</a>
-                <a href="#events">Events</a>
-                <a href="#about">About</a>
-            </div>
-            
-           
-        </nav>
-    )
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <h2>Campus Connect</h2>
+      <div className="nav-Links">
+        <Link to="/">Home</Link>
+        <Link to="/events">Events</Link>
+        <Link to="/about">About</Link>
+      </div>
+    </nav>
+  );
 }
+
 export default Navbar;
